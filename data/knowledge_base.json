@@ -1,0 +1,42 @@
+[
+  {
+    "id": "PROJ-001",
+    "title": "Webデータ収集＆スプレッドシート自動同期パイプライン",
+    "category": "Webスクレイピング / 業務自動化",
+    "tags": ["python", "scraping", "playwright", "gas", "sheets", "クローリング"],
+    "summary": "Playwrightを用いたヘッドレスブラウザによるEC・求人・相場データの自動巡回と、Google Sheets APIへの重複排除書き込みパイプライン。",
+    "details": "指数バックオフによる自動リトライ、レートリミット制御、差分検知を組み込んだ堅牢な収集基盤。"
+  },
+  {
+    "id": "PROJ-002",
+    "title": "ローカルAI音声文字起こし＆放送基準字幕生成ツール",
+    "category": "AI / 音声処理 / マルチメディア",
+    "tags": ["python", "whisper", "vulkan", "demucs", "字幕", "文字起こし", "srt", "ass"],
+    "summary": "Demucs音源分離とOpenAI Whisper、FFmpegシーン検出を連携させた高精度字幕作成CLIツール。",
+    "details": "放送映像ガイドライン（23.976fps）に準拠したカット跨ぎ防止ガードフレームおよびタイムコード自動補正を実装。"
+  },
+  {
+    "id": "PROJ-003",
+    "title": "為替市況データ自動収集＆ブログ自動パブリッシュシステム",
+    "category": "データエンジニアリング / 自動化",
+    "tags": ["python", "api", "oauth2", "blogger", "金融", "市況", "自動化"],
+    "summary": "標準ライブラリのみで動作する為替レート・金利指標の自動収集と、Google Blogger APIへの定時自動投稿パイプライン。",
+    "details": "OAuth 2.0 リフレッシュトークンによる自律更新と、文頭重複・定型句を排除する記事品質検査エンジンを搭載。"
+  },
+  {
+    "id": "PROJ-004",
+    "title": "Firebase Authentication 会員管理＆ダッシュボードポータル",
+    "category": "Web開発 / フロントエンド / BaaS",
+    "tags": ["javascript", "firebase", "firestore", "auth", "spa", "web"],
+    "summary": "Vanilla JavaScript ES Modules と Firebase v10 SDK による会員認証・セッション・プロファイル管理SPA。",
+    "details": "メール・Google認証、リアルタイムFirestoreデータ同期、スタイリッシュなUIとトースト通知を実装。"
+  },
+  {
+    "id": "PROJ-005",
+    "title": "アルゴリズム自動売買 EA ＆ リスク管理バックテストスイート",
+    "category": "金融工学 / MQL / アルゴリズム取引",
+    "tags": ["mql4", "mql5", "python", "backtest", "ea", "アルゴリズム取引", "一目均衡表"],
+    "summary": "一目均衡表ハイブリッド判定、上位足トレンドフィルター、連敗停止リミッターを統合したMT4/MT5両対応EA。",
+    "details": "Pythonを用いた過去複数年バックテストデータのシミュレーションおよび資金管理ロット最適化スクリプトを完備。"
+  }
+]
